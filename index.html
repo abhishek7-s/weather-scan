@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+
+        <div class="search">
+            <input type="text" id="ipCity" placeholder="City Name" spellcheck="false">
+            <button class="submit"><img src="imgs/search.png" alt="seach" ></button>
+
+        </div>
+        <h3 class="errBlock" style="color: rgb(209, 82, 82);"></h3>
+        <div class="weather">
+
+            <div class="status">
+                <!-- <img src="imgs/clouds.png" class="weatherIcon"> -->
+            </div>
+            <p class="desc"></p>
+            <h1 class="temp"></h1>
+            <h2 class="cityName"></h2>
+            <div class="details">
+                <div class="info">
+                    <img src="imgs/wind.png" alt="" srcset="">
+                    <div>            
+                        <p class="wind">
+                        </p>
+                        <p>wind</p>
+            
+                    </div>
+                </div>
+
+                <div class="info">
+                    <img src="imgs/humidity.png" alt="" srcset="">
+                    <div>
+
+                        <p class="humidity">
+                            
+                        </p>
+                        <p>Humidity</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
