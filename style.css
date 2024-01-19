@@ -11,12 +11,17 @@ body{
     /* height: 500px; */
     width: 85%;
     max-width: 400px;
-    margin: 50px auto 0;
-    background: linear-gradient(150deg , #00fee9 , #5b548a);
+    margin: 25px auto 0;
+    background: linear-gradient(190deg , #25fdeb , #7e72ca);
     /* padding: 50px 20px; */
-    padding: 40px 15px;
+    padding: 30px 15px;
     text-align: center;
     border-radius: 30px;
+}
+.card h1{
+    color: rgb(93, 60, 160);
+    text-shadow: 1px 1px 1px red, 0 0 1em rgb(233, 233, 249), 0 0 0.2em rgb(104, 104, 146);
+    margin-bottom: 25px;    
 }
 
 .search{
